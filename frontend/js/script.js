@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000/api/projects/";
+const API_URL = "/api/projects/";
 
 const demoProjects = [
   {id:1,title:"Obstacle Avoiding Robot",category:"Robotics",description:"An autonomous robot that detects obstacles and changes direction using an ultrasonic sensor.",components:"Arduino UNO, HC-SR04, L298N, DC Motors",working:"The ultrasonic sensor measures distance. Arduino processes the reading and controls the motors through the motor driver.",difficulty:"Intermediate",icon:"🤖"},
